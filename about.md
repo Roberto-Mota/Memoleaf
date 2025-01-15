@@ -15,3 +15,18 @@ Esse projeto curto tem como objetivo sedimentar conhecimentos fundamentais do Re
 - Uso de componentes e criação de componentes básicos
 - Uso de listas e manipulação das mesmas
 - Hooks simples e seus conceitos
+
+Funcionalidades:
+
+- [x] Adicionar uma nova tarefa
+- [ ] Marcar e desmarcar uma tarefa como concluída
+- [x] Remover uma tarefa da listagem
+- [ ] Mostrar o progresso de conclusão das tarefas
+
+Apesar de serem poucas funcionalidades, sedimentarei conceitos como:
+
+- Estados
+- Imutabilidade do estado
+- Listas e chaves no React Native
+- Propriedades
+- Componentização

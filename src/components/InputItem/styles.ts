@@ -31,10 +31,10 @@ export const styles = StyleSheet.create({
     color: 'white',
     padding: 12,
     height: 56,
-    width: '80%',
+    width: '70%',
     fontSize: 16,
     fontWeight: 'bold',
-    marginRight: 16,
+    marginRight: 8,
     borderRadius: 0, // Remove bordas arredondadas padrão
     borderTopRightRadius: 32, // Curva acentuada no topo direito
     borderBottomLeftRadius: 32, // Curva acentuada no fundo esquerdo
@@ -53,8 +53,17 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 
+  checkboxContainer: {
+    width: 45,
+    height: 56,
+    borderRadius: 0, // Remove bordas arredondadas padrão
+    borderTopLeftRadius: 24, // Curva acentuada no topo esquerdo
+    borderBottomRightRadius: 24, // Curva acentuada no fundo direito
+    backgroundColor: '#292621',
+  },
+
   buttonPlus: {
-    width: 56,
+    width: 45,
     height: 56,
     borderRadius: 0, // Remove bordas arredondadas padrão
     borderTopLeftRadius: 24, // Curva acentuada no topo esquerdo

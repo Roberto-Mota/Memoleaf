@@ -62,7 +62,6 @@ export const styles = StyleSheet.create({
   buttonPlusText: {
     color: '#D3CBB8',
     fontSize: 32,
-    fontWeight: 'bold',
   },
 
   emptyText: {
