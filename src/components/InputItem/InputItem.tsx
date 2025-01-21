@@ -5,24 +5,24 @@ import React from "react";
 type Props = {
   // Ts me força a criar esse objeto e passar ele como referencia ali no espaço de props do componente
   nomeAtividade: string;
-  HandlerRightInteraction: (nomeAtividade: string) => void;
+  checado: boolean;
+  HandlerRightInteraction: () => void;
   HandlerLeftInteraction: () => void;
 };
 
 export function InputItem(props: Props) {
   // posso usar props ou spread operator, prefiro props
 
-  function handleBotaoHome(nomeAtividade: string) {
-    console.log("Hello World -> " + props.nomeAtividade);
-  }
+  // function handleBotaoHome(nomeAtividade: string) {
+  //   console.log("Hello World -> " + props.nomeAtividade);
+  // }
 
   return (
     <View style={styles.inputContainer}>
       <TouchableOpacity
-        //onPress={() => handleBotaoHome(props.nomeAtividade)}
-        onPress={() => props.HandlerLeftInteraction(props.nomeAtividade)}
+        onPress={props.HandlerLeftInteraction}
         style={[styles.checkboxContainer, { marginHorizontal: 6 }]}>
-        <Text style={styles.buttonMinusText}>✓</Text>
+         <Text style={styles.buttonCheckedText}>{props.checado ? `☑` : `☐`}</Text>
       </TouchableOpacity>
       <View style={styles.input}>
         <Text style={styles.mainText}>
@@ -31,7 +31,7 @@ export function InputItem(props: Props) {
       </View>
       <TouchableOpacity
         //onPress={() => handleBotaoHome(props.nomeAtividade)}
-        onPress={() => props.HandlerRightInteraction(props.nomeAtividade)}
+        onPress={() => props.HandlerRightInteraction()}
         style={[styles.buttonPlus, { marginLeft: 0 }]}>
         <Text style={styles.buttonMinusText}>-</Text>
       </TouchableOpacity>

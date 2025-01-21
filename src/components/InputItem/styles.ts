@@ -60,6 +60,14 @@ export const styles = StyleSheet.create({
     borderTopLeftRadius: 24, // Curva acentuada no topo esquerdo
     borderBottomRightRadius: 24, // Curva acentuada no fundo direito
     backgroundColor: '#292621',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 10,
+  },
+
+  buttonCheckedText: {
+    color: '#D3CBB8',
+    fontSize: 32,
   },
 
   buttonPlus: {
@@ -78,5 +86,7 @@ export const styles = StyleSheet.create({
       color: '#D3CBB8',
       fontSize: 32,
       fontWeight: 'bold',
+      
     },
+    
 });

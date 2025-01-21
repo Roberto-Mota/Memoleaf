@@ -105,6 +105,7 @@ export function Home() {
             <InputItem
               key={item + "1"}
               nomeAtividade={item.nome}
+              checado={item.checked}
               //HandlerRightInteraction={() => console.log("Hello World -> " + item)}
               HandlerRightInteraction={() => handleBotaoDelete(item)}
               HandlerLeftInteraction={() => handleBotaoCheck(item)}
