@@ -3,7 +3,6 @@ import { styles } from "./styles";
 import React from "react";
 
 type Props = {
-  // Ts me força a criar esse objeto e passar ele como referencia ali no espaço de props do componente
   nomeAtividade: string;
   checado: boolean;
   HandlerRightInteraction: () => void;
@@ -11,11 +10,6 @@ type Props = {
 };
 
 export function InputItem(props: Props) {
-  // posso usar props ou spread operator, prefiro props
-
-  // function handleBotaoHome(nomeAtividade: string) {
-  //   console.log("Hello World -> " + props.nomeAtividade);
-  // }
 
   return (
     <View style={styles.inputContainer}>
@@ -30,7 +24,6 @@ export function InputItem(props: Props) {
         </Text>
       </View>
       <TouchableOpacity
-        //onPress={() => handleBotaoHome(props.nomeAtividade)}
         onPress={() => props.HandlerRightInteraction()}
         style={[styles.buttonPlus, { marginLeft: 0 }]}>
         <Text style={styles.buttonMinusText}>-</Text>

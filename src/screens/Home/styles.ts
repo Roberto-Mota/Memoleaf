@@ -2,12 +2,9 @@ import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
   container: {
-    // borderRadius: 5,
     flex: 1,
     backgroundColor: '#2A3B29',
     padding: 12
-    //   alignItems: 'center',
-    //   justifyContent: 'center',
   },
 
   title: {
@@ -21,8 +18,6 @@ export const styles = StyleSheet.create({
   inputContainer: {
     width: '100%',
     flexDirection: 'row',
-    // alignItems: 'center',
-    // justifyContent: 'space-between',
   },
 
 
