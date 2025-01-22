@@ -45,6 +45,8 @@ export const styles = StyleSheet.create({
     color: '#ffffff',
     fontSize: 16,
     fontWeight: 'bold',
+    paddingTop: 3,
+    paddingLeft: 6
   },
 
   checkboxContainer: {

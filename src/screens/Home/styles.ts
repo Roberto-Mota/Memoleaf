@@ -7,19 +7,24 @@ export const styles = StyleSheet.create({
     padding: 12
   },
 
+  progressBarContainer: {
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+
   title: {
     color: '#D3CBB8',
     fontSize: 32,
     fontWeight: 'bold',
-    marginTop: 32,
     marginBottom: 16,
+    alignSelf: 'center',
   },
 
   inputContainer: {
     width: '100%',
     flexDirection: 'row',
   },
-
 
   input: {
     backgroundColor: '#363E33',
@@ -30,6 +35,7 @@ export const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     marginRight: 16,
+    marginBottom: 16,
     borderRadius: 0, // Remove bordas arredondadas padrão
     borderTopLeftRadius: 24, // Curva acentuada no topo esquerdo
     borderBottomRightRadius: 24, // Curva acentuada no fundo direito
@@ -66,6 +72,5 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
   }
-
 
 });

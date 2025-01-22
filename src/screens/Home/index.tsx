@@ -3,6 +3,7 @@ import { Alert, FlatList, ScrollView, Text, TextInput, TouchableOpacity, View } 
 import { InputItem } from "../../components/InputItem/InputItem";
 import { styles } from "./styles";
 import React, { useState } from "react";
+import { ProgressBar } from "../../components/ProgressBar/ProgressBar";
 
 type Atividade = {
   nome: string;
@@ -58,6 +59,9 @@ export function Home() {
     <>
       <StatusBar />
       <View style={styles.container}>
+        <View style={styles.progressBarContainer}>
+          <ProgressBar titulo={`Atividades Concluídas`}  totalAtividades={atividades.length} atividadesChecked={atividades.filter(atividade => atividade.checked).length}  />
+        </View>
         <Text style={styles.title}>Nome da atividade</Text>
         <View style={styles.inputContainer}>
           <TextInput
