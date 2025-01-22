@@ -1,28 +1,22 @@
 Projeto: MemoLeaf
 
-- Descrição Breve:
+- #### Descrição Breve:
+
 MemoLeaf é um aplicativo de projetado para reforçar uma lista de tarefas diárias
 
-- Conceito Visual:
+- #### Conceito Visual:
+
+
 MemoLeaf transforma o conteúdo em "folhas". Esse ciclo de desenvolvimento visual reflete e simboliza o cuidado com as tarefas como um jardim de memórias
 
-- Exemplo visual:
+- #### Exemplo visual:
 <img src=./misc/showcase-memoleaf.jpeg width=300px >
 
-- Como executar:
+- #### Como executar:
+
 Com o ambiente e emulador/dispositivo configurado(s), basta executar o comando `npx expo install --check`, `npx expo start` e usar o método que quiser para visualizar o resultado
 
-Esse projeto curto tem como objetivo sedimentar conhecimentos fundamentais do React Native como:
-
-- Criação de um projeto do zero
-- Funcionamentos do React Native
-- Estilizações básicas de elementos/componentes
-- Organização de projeto
-- Uso de componentes e criação de componentes básicos
-- Uso de listas e manipulação das mesmas
-- Hooks simples e seus conceitos
-
-Funcionalidades:
+- #### Funcionalidades:
 
 - [x] Adicionar uma nova tarefa
 - [x] Marcar e desmarcar uma tarefa como concluída
@@ -36,3 +30,16 @@ Apesar de serem poucas funcionalidades, sedimentei conceitos como:
 - Listas e chaves no React Native
 - Propriedades
 - Componentização
+
+
+- #### Objetivo:
+
+Esse projeto curto tem como objetivo sedimentar conhecimentos fundamentais do React Native como:
+
+- Criação de um projeto do zero
+- Funcionamentos do React Native
+- Estilizações básicas de elementos/componentes
+- Organização de projeto
+- Uso de componentes e criação de componentes básicos
+- Uso de listas e manipulação das mesmas
+- Hooks simples e seus conceitos
