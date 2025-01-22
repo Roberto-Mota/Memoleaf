@@ -2,7 +2,7 @@
 
 - #### Descrição Breve:
 
-MemoLeaf é um aplicativo de projetado para reforçar uma lista de tarefas diárias
+MemoLeaf é um aplicativo projetado para reforçar uma lista de tarefas diárias
 
 - #### Conceito Visual:
 
